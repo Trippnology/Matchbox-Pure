@@ -1,0 +1,11 @@
+/* Make it safe to add margin/padding directly to the grid */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.pure-g > div, .pure-g-r > div {
+	padding: 1em;
+}
+
+header, footer {
+	padding: 1em;
+	text-align: center;
+}
